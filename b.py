@@ -15,7 +15,7 @@ def get_role(scope, profile_name, principal, policies_list, additional_policies=
 
     for policy in policies_list:
         role.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name(policy))
-
+    print(role)
     if additional_policies:
         role.add_to_policy(
             iam.PolicyStatement(
