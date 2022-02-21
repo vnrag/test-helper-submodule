@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # Package meta-data.
-NAME = "aggregator"
+NAME = "cdgator"
 DESCRIPTION = "Public VNR package with most commonly used functions"
 URL = "git@github.com:vnrag/test-helper-submodule.git"
 VERSION = "0.1.0"
