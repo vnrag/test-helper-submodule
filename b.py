@@ -6,6 +6,7 @@ submodule_msg = "Hello! You are using submodules."
 
 
 def get_role(scope, profile_name, principal, policies_list, additional_policies=[]):
+    print(submodule_msg)
     role = iam.Role(
         scope,
         profile_name,
