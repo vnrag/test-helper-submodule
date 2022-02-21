@@ -16,6 +16,7 @@ setup(
     license="MIT",
     packages=find_packages(exclude=("test",)),
     include_package_data=True,
+    install_requires=['aws-cdk.aws-stepfunctions']
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
